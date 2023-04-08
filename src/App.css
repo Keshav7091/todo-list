@@ -10,12 +10,23 @@
   border-radius: 1rem;
 }
 
+.container{
+  margin-top: 5rem;
+}
+
+.container h1{
+  margin: 1rem 5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
 .todo-form{
   display: flex;
   width: 100%;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   font-size: 2rem;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 
 .todo-form input{
@@ -23,17 +34,18 @@
   /* font-size: 2rem; */
   padding: 1rem;
   margin: 0rem;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 .todo-form input ::placeholder{
   font-size: 1rem;
+  color: skyblue;
 }
 
 
 .todo-form button{
   border: 2px;
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   background-color: skyblue;
   padding: 0.5rem;
   cursor: pointer;
